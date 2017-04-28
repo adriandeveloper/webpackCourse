@@ -1,0 +1,17 @@
+{
+  "name": "webpack",
+  "version": "1.0.0",
+  "description": "webpack course",
+  "main": "index.js",
+  "author": "Adrian",
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "1.14.0"
+  },
+  "scripts": {
+    "webpack": "webpack ./app.js ./bundle.js"
+  },
+  "dependencies": {
+    "jquery": "^3.2.1"
+  }
+}

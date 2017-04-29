@@ -44,15 +44,15 @@
 /* 0 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var api = __webpack_require__(1);
-	var $ = __webpack_require__(2);
+	const api = __webpack_require__(1);
+	const $ = __webpack_require__(2);
 
-	var users = api.getUsers();
+	const users = api.getUsers();
 
-	 console.log($);
-	// $.each(users, function(index, user) {
-	//   $.(document.body).append(index + "<p> name " + user.name + ' age ' + user.age + "</p>");
-	// })
+	 // console.log($);
+	$.each(users,(index, user) => {
+	  $(document.body).append(index + "<p> name " + user.name + ' age ' + user.age + "</p>");
+	})
 
 /***/ },
 /* 1 */
